@@ -1,0 +1,3 @@
+public enum Nivel { //ENUM PRE-DEFINE VALORES DE STRING
+    FACIL, NORMAL, DIFICIL;
+}
