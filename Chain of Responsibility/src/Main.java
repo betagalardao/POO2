@@ -5,7 +5,6 @@ public class Main {
         Handler h3 = new HistoricoCreditoHandler();
         Handler h4 = new GarantiaHandler();
 
-        //encadeia os handlers para ter uma ordem
         h1.setNext(h2);
         h2.setNext(h3);
         h3.setNext(h4);

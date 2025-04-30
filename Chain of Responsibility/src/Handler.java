@@ -22,3 +22,4 @@ public abstract class Handler {
 }
 
 //abstrata para ser estendida pelas outras classes
+//next != null se existe prox handler chama ele 
